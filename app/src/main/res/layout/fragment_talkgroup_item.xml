@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llay_talkgroup_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingTop="5dp"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/txt_talkgroup_tem_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="C"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="auto"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_talkgroup_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_talkgroup_item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

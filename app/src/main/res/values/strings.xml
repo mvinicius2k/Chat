@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="txt_login">LOGIN</string>
+    <string name="et_login">E-mail ou apelido</string>
+    <string name="et_senha">Senha</string>
+    <string name="btn_login">Logar</string>
+    <string name="txt_to_singup">Não tem uma conta? Crie uma agora!</string>
+    <string name="txt_login_status_error0">Email/apelido ou senha incorretos</string>
+    <string name="et_singup_email_or_nick">Apelido ou E-mail</string>
+    <string name="et_singup_pass">Senha</string>
+    <string name="et_singup_confirm_pass">Confirme sua senha</string>
+    <string name="btn_singup_create">Criar conta</string>
+    <string name="str_singup_different_pass_error">As senhas precisam ser iguais</string>
+    <string name="str_singup_title">Criando uma conta</string>
+    <string name="str_login_account_created">Sua conta foi criada com sucesso</string>
+    <string name="str_login_auth_error">Sem conexão, tente novamente</string>
+    <string name="str_login_auth_incorrect">Nick/email ou senha incorretos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ti_talk">Conversas</string>
+    <string name="ti_groups">Grupos</string>
+    <string name="str_main_title">Chat e Grupos</string>
+    <string name="et_message">Digite uma mensagem</string>
+    <string name="str_message_ralkgroup_you">Você</string>
+    <string name="et_new_talkgroup_nickemail">Digite um emal ou apelido</string>
+    <string name="str_new_talkgroup_selfadd_error">Você não pode conversar com você</string>
+    <string name="str_new_talkgroup_readd_error">Este usuário já está inserido no grupo</string>
+    <string name="et_new_talkgroup_name">Nome do grupo</string>
+</resources>
